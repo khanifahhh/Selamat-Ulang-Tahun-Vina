@@ -1,0 +1,29 @@
+#cakes{background:#21151c;overflow:hidden;color:#fff4f0}
+#cakes:after{background:radial-gradient(circle at 50% 38%,rgba(255,196,177,.13),transparent 40%)!important}
+#cakes .section-heading{position:relative;z-index:2}
+#cakes .section-heading .eyebrow{color:#f4b0b6}
+#cakes .section-heading h2{color:#fff8f2;text-shadow:0 2px 20px #0006}
+#cakes .section-heading h2 em{color:#ee91a5}
+#cakes .section-heading p{color:#c79fa6}
+#cakes .section-heading:before{color:#e6a24e!important}
+.bakery-window{position:absolute;left:-10vw;right:-10vw;top:0;height:42px;border-bottom:1px solid #8d5360;background:repeating-linear-gradient(90deg,transparent 0 90px,#5b3541 91px 94px),linear-gradient(#412530,#281920);opacity:.85}
+.bakery-window:after{content:"";position:absolute;left:0;right:0;bottom:-11px;height:11px;background:repeating-linear-gradient(135deg,#ed8fa2 0 22px,#652d3b 22px 44px);opacity:.7}
+.bakery-lamp{position:absolute;z-index:1;top:0;left:50%;width:2px;height:76px;background:#b67a75}.bakery-lamp:after{content:"";position:absolute;top:68px;left:-18px;width:38px;height:26px;background:#ffd493;border:3px solid #6f4049;border-radius:50%;box-shadow:0 0 42px 18px #f2ae5c42}
+.bakery-sign{position:absolute;z-index:2;top:98px;left:50%;transform:translateX(-50%);padding:9px 20px;border:1px solid #9d5d68;background:#38202a;color:#f4c5a8;font:11px "DM Mono",monospace;letter-spacing:.17em;box-shadow:0 8px 20px #0005}.bakery-sign span{display:block;text-align:center;font-size:7px;letter-spacing:.24em;color:#ca8792;margin-top:5px}
+.cake-grid{position:relative;z-index:2}
+.cake-card{overflow:hidden;background:linear-gradient(145deg,#39232e,#241921)!important;border-color:#704351!important;color:#fff2ed!important;box-shadow:0 18px 40px #09050a55!important;padding-top:24px!important;transition:transform .45s cubic-bezier(.16,1,.3,1),border-color .3s,box-shadow .3s!important}
+.cake-card:before{content:"";position:absolute;inset:8px;border:1px solid #8a536044;pointer-events:none}
+.cake-card:after{content:"";position:absolute;left:-25%;right:-25%;top:-45%;height:150px;background:#f4a2a622;border-radius:50%;filter:blur(20px);pointer-events:none}
+.cake-card:hover{transform:translateY(-11px) scale(1.025)!important;border-color:#ef9ead!important;box-shadow:0 26px 55px #08040888,0 0 0 1px #ed8f9b55!important}
+.card-number{position:relative;z-index:2;color:#d69a9c!important}
+.cake-card strong{position:relative;z-index:4;color:#fff5ef}
+.cake-card small{position:relative;z-index:4;color:#c8929b}
+.cake-pixel{z-index:2;filter:drop-shadow(0 8px 7px #13080c);transition:transform .45s}.cake-card:hover .cake-pixel{transform:translateY(-5px) scale(1.06)}
+.cake-mascot{position:absolute;z-index:5;right:18px;bottom:45px;width:76px;height:72px;background:#fff8f0;border:4px solid #55303b;border-radius:45% 45% 40% 40%;box-shadow:3px 6px 0 #e28d9d;transform:rotate(5deg);transition:transform .4s}
+.cake-card:hover .cake-mascot{transform:rotate(-4deg) translateY(-8px)}
+.cake-mascot:before,.cake-mascot:after{content:"";position:absolute;z-index:-1;bottom:11px;width:38px;height:21px;border:4px solid #55303b;background:#fff8f0;border-radius:50%}.cake-mascot:before{left:-28px;transform:rotate(-28deg)}.cake-mascot:after{right:-28px;transform:rotate(28deg)}
+.mascot-ear{position:absolute;top:-23px;left:12px;width:25px;height:27px;background:inherit;border:4px solid #55303b;transform:rotate(-30deg);border-radius:80% 0 30% 0}.mascot-ear:after{content:"";position:absolute;inset:5px;background:#efa0a5;clip-path:polygon(50% 0,100% 100%,0 100%)}
+.mascot-face{position:absolute;left:9px;top:19px;font-size:12px;letter-spacing:1px;color:#5a3540;white-space:nowrap}
+.mascot-bow{position:absolute;right:7px;top:4px;color:#e98aa1;font-size:22px}.mascot-crown{position:absolute;top:-34px;left:15px;color:#e7ad58;font-size:25px;transform:rotate(-5deg)}.mascot-scarf{position:absolute;bottom:4px;left:7px;right:7px;color:#bd784b;font-size:30px;line-height:10px;transform:rotate(-5deg)}
+.mascot-cupcake{background:#fff5ee;box-shadow:3px 6px 0 #e28d9d}.mascot-cupcake:after{border-color:#55303b;background:#fff5ee}.mascot-velvet{background:#f7d9d1;box-shadow:3px 6px 0 #9f405b}.mascot-velvet:after{border-color:#55303b;background:#f7d9d1}.mascot-velvet .mascot-face{color:#9d3e57}.mascot-cinnamon{background:#f7e2b9;box-shadow:3px 6px 0 #b96e45}.mascot-cinnamon:after{border-color:#55303b;background:#f7e2b9}.mascot-cinnamon .mascot-face{color:#925331;font-size:10px}
+@media(max-width:720px){.bakery-sign{top:77px;font-size:9px}.bakery-window{height:28px}.bakery-lamp{display:none}.cake-mascot{right:12px;bottom:33px;transform:scale(.8) rotate(5deg)}.cake-card:hover .cake-mascot{transform:scale(.8) rotate(-4deg) translateY(-8px)}#cakes .section-heading{margin-top:70px}}
